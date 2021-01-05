@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtParentheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="30dp"
+                android:padding="10dp"
+                android:text="@string/government_of_india_2020"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgPm"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/Pmdes"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/narender_modi_1"
+                android:contentDescription="@string/this_is_imageview_area" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Pmdes"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgPm"
+                android:text="@string/sh_narender_modi"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgPm"
+                android:text="@string/ministry_of_personnel_public_grievances_and_pensions"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEmail"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgPm"
+                android:text="@string/department_of_atomic_energy"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/Pmdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtParentheader"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_1_prime_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Cabinet Ministers-->
+
+            <!-- Defence Minister-->
+
+            <TextView
+                android:id="@+id/txtDefence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgPm"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_2_defence_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgDef"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtDefence"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/rajnathsingh" />
+
+            <TextView
+                android:id="@+id/txtdefName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDefence"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgDef"
+                android:text="@string/sh_rajnath_singh"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdefdesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtdefName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgPm"
+                android:text="@string/ministry_of_defence"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtdefPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtdefdesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgPm"
+                android:text="@string/_23012286_23019030"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtdefemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtdefPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgPm"
+                android:text="@string/n_a1"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!-- Home Affairs Minister-->
+
+            <TextView
+                android:id="@+id/txtHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgDef"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_3_home_affairs_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgHome"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtHome"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/amit_shah" />
+
+            <TextView
+                android:id="@+id/txtHomeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHome"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgHome"
+                android:text="@string/sh_amit_shah"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHomedesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHomeName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgHome"
+                android:text="@string/ministry_of_home_affairs"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtHomePhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHomedesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgHome"
+                android:text="@string/n_a2"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtHomeemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtHomePhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgHome"
+                android:text="@string/n_a3"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!--Ministry of Road Transport and Highways-->
+
+            <TextView
+                android:id="@+id/txtRoad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgHome"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_4_road_transport_and_highways"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgRoad"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtRoad"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/gadkari" />
+
+            <TextView
+                android:id="@+id/txtRoadName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtRoad"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgRoad"
+                android:text="@string/sh_nitin_jairam_gadkari"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtRoaddesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtRoadName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgRoad"
+                android:text="@string/ministry_of_road_transport_and_highways"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtRoadPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtRoaddesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgRoad"
+                android:text="@string/ministry_of_micro_small_and_medium_enterprises"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtRoademail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtRoadPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgRoad"
+                android:text="@string/n_a4"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!--Finance Minister-->
+
+            <TextView
+                android:id="@+id/txtFinance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgRoad"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_5_finance_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgFinance"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtFinance"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/nirmalasitharaman" />
+
+            <TextView
+                android:id="@+id/txtFinanceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFinance"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgFinance"
+                android:text="@string/sh_nirmala_sitharaman"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtFinancedesignation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFinanceName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgFinance"
+                android:text="@string/ministry_of_finance"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtFinancePhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFinancedesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgFinance"
+                android:text="@string/ministry_of_corporate_affairs"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtFinanceemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtFinancePhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgFinance"
+                android:text="@string/n_a5"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!-- Agriculture Minister-->
+            <TextView
+                android:id="@+id/txtAgri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgFinance"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_6_agriculture_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgAgri"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtAgri"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/narendrasinghtomar" />
+
+            <TextView
+                android:id="@+id/txtAgriName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAgri"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgAgri"
+                android:text="@string/shri_narendra_singh_tomar"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAgridesignation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txtAgriName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgAgri"
+                android:text="@string/ministry_of_agriculture_and_farmers_welfare"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtAgriPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAgridesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgAgri"
+                android:text="@string/ministry_of_rural_development"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtAgriemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAgriPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgAgri"
+                android:text="@string/ministry_of_panchayati_raj"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!-- Minister of Law -->
+
+            <TextView
+                android:id="@+id/txtLaw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgAgri"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_7_law_and_justice_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgLaw"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtLaw"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ravishankarprasad" />
+
+            <TextView
+                android:id="@+id/txtLawName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLaw"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/imgLaw"
+                android:text="@string/shri_ravi_shankar_prasad"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLawdesignation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txtLawName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgLaw"
+                android:text="@string/ministry_of_law_and_justice"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtLawPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLawdesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgLaw"
+                android:text="@string/ministry_of_communications"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtLawemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLawPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgLaw"
+                android:text="@string/ministry_of_electronics_and_information_technology"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!-- Railway Minister -->
+
+            <TextView
+                android:id="@+id/txtRail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgLaw"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_8_railway_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgRail"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtRail"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/piyushgoyal" />
+
+            <TextView
+                android:id="@+id/txtRailName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtRail"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgRail"
+                android:text="@string/shri_piyush_goyal"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtRaildesignation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txtRailName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgLaw"
+                android:text="@string/ministry_of_railways"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtRailPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtRaildesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgRail"
+                android:text="@string/ministry_of_commerce_and_industry"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtRailemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtRailPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgRail"
+                android:text="@string/ministry_of_consumer_affairs_food_and_public_distribution"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!-- Environment Minister -->
+
+            <TextView
+                android:id="@+id/txtEnv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgRail"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/_9_environment_minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgEnv"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtEnv"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/prakashjavadekar" />
+
+            <TextView
+                android:id="@+id/txtEnvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEnv"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgEnv"
+                android:text="@string/shri_prakash_javadekar"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEnvdesignation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txtEnvName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgEnv"
+
+                android:text="@string/ministry_of_environment_forest_and_climate_change"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtEnvPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEnvdesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgEnv"
+                android:text="@string/ministry_of_information_and_broadcasting"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtEnvemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEnvPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgRail"
+                android:text="@string/ministry_of_heavy_industries_and_public_enterprises"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <!-- External Affairs Minister-->
+
+          <TextView
+                android:id="@+id/txtExt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgEnv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="9. Environment Minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgExt"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtExt"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/subrahmanyam" />
+
+            <TextView
+                android:id="@+id/txtExtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtExt"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgExt"
+                android:text="@string/dr_subrahmanyam_jaishankar"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtExtdesignation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txtExtName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgExt"
+                android:text="@string/ministry_of_external_affairs"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtExtPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtExtdesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgExt"
+                android:text="@string/n_a6"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtExtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtExtPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgExt"
+                android:text="@string/n_a7"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <!-- Education Minister-->
+
+            <TextView
+                android:id="@+id/txtEdu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgExt"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="10. Education Minister"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgEdu"
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/txtEdu"
+
+                android:layout_marginStart="20dp"
+                android:src="@drawable/ramesh" />
+
+            <TextView
+                android:id="@+id/txtEduName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEdu"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/imgEdu"
+                android:text="@string/shri_ramesh_pokhriyal_nishank"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtEdudesignation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txtEduName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgEdu"
+                android:text="@string/ministry_of_external_affairs"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtEduPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEdudesignation"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgEdu"
+                android:text="@string/n_a8"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtEduemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtEduPhoneNumber"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/imgEdu"
+                android:text="@string/n_a9"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

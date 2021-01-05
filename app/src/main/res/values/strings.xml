@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Ministry</string>
+    <string name="mobile_number">Enter Mobile Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password">Forgot Password</string>
+
+
+    <string name="ministry_of_external_affairs">Ministry of External Affairs</string>
+    <string name="dr_subrahmanyam_jaishankar">Dr. Subrahmanyam Jaishankar</string>
+    <string name="government_of_india_2020">GOVERNMENT OF INDIA(2020)</string>
+    <string name="sh_narender_modi">Sh. Narender Modi</string>
+    <string name="ministry_of_personnel_public_grievances_and_pensions">Ministry of Personnel, Public Grievances and Pensions</string>
+    <string name="department_of_atomic_energy">Department of Atomic Energy</string>
+    <string name="_1_prime_minister">1. Prime Minister</string>
+    <string name="_2_defence_minister">2. Defence Minister</string>
+    <string name="this_is_imageview_area">This is ImageView Area</string>
+    <string name="sh_rajnath_singh">Sh. Rajnath Singh</string>
+    <string name="ministry_of_defence">Ministry of Defence</string>
+    <string name="_23012286_23019030">23012286,23019030</string>
+
+    <string name="_3_home_affairs_minister">3. Home Affairs Minister</string>
+    <string name="sh_amit_shah">Sh. Amit Shah</string>
+    <string name="ministry_of_home_affairs">Ministry of Home Affairs</string>
+
+    <string name="_4_road_transport_and_highways">4. Road Transport and Highways</string>
+    <string name="sh_nitin_jairam_gadkari">Sh. Nitin Jairam Gadkari</string>
+    <string name="ministry_of_road_transport_and_highways">Ministry of Road Transport and Highways</string>
+
+    <string name="_5_finance_minister">5. Finance Minister</string>
+    <string name="sh_nirmala_sitharaman">Sh. Nirmala Sitharaman</string>
+    <string name="ministry_of_finance">Ministry of Finance</string>
+
+    <string name="_6_agriculture_minister">6. Agriculture Minister</string>
+    <string name="shri_narendra_singh_tomar">Shri Narendra Singh Tomar</string>
+    <string name="ministry_of_agriculture_and_farmers_welfare">Ministry of Agriculture and Farmers Welfare</string>
+    <string name="n_a">N/A</string>
+    <string name="ministry_of_rural_development">Ministry of Rural Development</string>
+    <string name="_7_law_and_justice_minister">7. Law and Justice Minister</string>
+    <string name="shri_ravi_shankar_prasad">Shri Ravi Shankar Prasad</string>
+    <string name="ministry_of_law_and_justice">Ministry of Law and Justice</string>
+    <string name="ministry_of_communications">Ministry of Communications</string>
+    <string name="ministry_of_electronics_and_information_technology">Ministry of Electronics and Information Technology</string>
+    <string name="_8_railway_minister">8. Railway Minister</string>
+    <string name="shri_piyush_goyal">Shri Piyush Goyal</string>
+    <string name="ministry_of_railways">Ministry of Railways</string>
+    <string name="ministry_of_commerce_and_industry">Ministry of Commerce and Industry</string>
+    <string name="ministry_of_consumer_affairs_food_and_public_distribution">Ministry of Consumer Affairs, Food and Public Distribution</string>
+    <string name="_9_environment_minister">9. Environment Minister</string>
+    <string name="shri_prakash_javadekar">Shri Prakash Javadekar</string>
+    <string name="ministry_of_environment_forest_and_climate_change">Ministry of Environment, Forest and Climate Change</string>
+    <string name="ministry_of_information_and_broadcasting">Ministry of Information and Broadcasting</string>
+    <string name="ministry_of_heavy_industries_and_public_enterprises">Ministry of Heavy Industries and Public Enterprises</string>
+    <string name="n_a1">N/A</string>
+    <string name="n_a2">N/A</string>
+
+    <string name="n_a3">N/A</string>
+    <string name="ministry_of_micro_small_and_medium_enterprises">Ministry of Micro, Small and Medium Enterprises</string>
+    <string name="n_a4">N/A</string>
+    <string name="ministry_of_corporate_affairs">Ministry of Corporate Affairs</string>
+    <string name="n_a5">N/A</string>
+
+    <string name="ministry_of_panchayati_raj">Ministry of Panchayati Raj</string>
+    <string name="n_a6">N/A</string>
+    <string name="n_a7">N/A</string>
+    <string name="shri_ramesh_pokhriyal_nishank">Shri Ramesh Pokhriyal \'Nishank\'</string>
+    <string name="n_a8">N/A</string>
+    <string name="n_a9">N/A</string>
+</resources>
